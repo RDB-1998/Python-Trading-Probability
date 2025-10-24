@@ -5,7 +5,9 @@
 
 
 ### Tools & Libraries 💻
-- `Python - Basics`
-- `Pandas - Basics`
-- `NumPy - Basics`
-- `Matplotlib - Basics`
+- `Python`
+- `Pandas`
+- `NumPy`
+- `Matplotlib`
+- `yfinance`
+- `Cursor`
