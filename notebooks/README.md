@@ -20,7 +20,7 @@ Notebooks demonstrating basic concepts in probability and statistics:
 - [03_risk_metrics.ipynb](probability_experiments/03_risk_metrics.ipynb)  
   Covering Maximum Drawdown, Sharpe Ratio, Sortino Ratio, Kelly Criterion, and Gambler’s Ruin.  
 
-- [04_simulations_monte_carlo.ipynb](probability_experiments/04_simulations_monte_carlo.ipynb)  
+- [04_simulations_and_monte_carlo.ipynb](probability_experiments/04_simulations_monte_carlo.ipynb)  
   Monte Carlo simulations, cumulative PnL visualization and the distribution of outcomes.
 
 
