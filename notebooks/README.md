@@ -9,19 +9,19 @@ This repository is structured into two main areas: probability/statistics experi
 ## 📂 Folder Structure
 
 ### **1. Probability Experiments** (`probability_experiments/`)  
-Beginner-friendly notebooks demonstrating foundational concepts in probability and statistics applied to trading:  
+Notebooks demonstrating basic concepts in probability and statistics:  
 
 - [01_probability_basics.ipynb](probability_experiments/01_probability_basics.ipynb)  
-  Covering expected value, independent events, complement rule, binomial probability, conditional probability, Bayes theorem, variance, and standard deviation.  
+  Covering Expected Value, Independent Events, Complement Rule, Binomial Probability, Conditional Probability, Bayes Theorem, Variance, and Standard Deviation.  
 
 - [02_statistics_basics.ipynb](probability_experiments/02_statistics_basics.ipynb)  
-  Covering mean, median, variance, standard deviation, covariance, correlation, normal distribution, Z-scores, confidence intervals, Law of Large Numbers (LLN), and Central Limit Theorem (CLT).  
+  Covering Mean, Median, Variance, Standard Deviation, Covariance, Correlation, Normal Distribution, Z-scores, Confidence Intervals, Law of Large Numbers (LLN), and Central Limit Theorem (CLT).  
 
 - [03_risk_metrics.ipynb](probability_experiments/03_risk_metrics.ipynb)  
   Covering Maximum Drawdown, Sharpe Ratio, Sortino Ratio, Kelly Criterion, and Gambler’s Ruin.  
 
 - [04_simulations_monte_carlo.ipynb](probability_experiments/04_simulations_monte_carlo.ipynb)  
-  Monte Carlo simulations for trading strategies, cumulative PnL visualization and the distribution of outcomes.
+  Monte Carlo simulations, cumulative PnL visualization and the distribution of outcomes.
 
 
 ### **2. Trading and Analysis** (`trading_analysis/`)  
