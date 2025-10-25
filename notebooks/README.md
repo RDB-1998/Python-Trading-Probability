@@ -9,7 +9,7 @@ This repository is structured into two main areas: probability/statistics experi
 ## 📂 Folder Structure
 
 ### **1. Probability Experiments** (`probability_experiments/`)  
-Notebooks demonstrating basic concepts in probability and statistics:  
+Notebooks demonstrating basic concepts in Probability and Statistics:  
 
 - [01_probability_basics.ipynb](probability_experiments/01_probability_basics.ipynb)  
   Covering Expected Value, Independent Events, Complement Rule, Binomial Probability, Conditional Probability, Bayes Theorem, Variance, and Standard Deviation.  
