@@ -27,10 +27,10 @@ Notebooks demonstrating basic concepts in probability and statistics:
 ### **2. Trading and Analysis** (`trading_analysis/`)  
 Notebooks applying probability, statistics, and risk metrics to real trading strategies:  
 
-- [btc_eth_analysis.ipynb](trading_analysis/BTC_vs_ETH_analysis.ipynb)  
+- [btc_eth_analysis.ipynb](trading_analyses/btc_eth_analysis.ipynb)  
   Comparison and analysis of BTC and ETH. 
 
-- [btc_alpha_strategy.ipynb](trading_analysis/Alpha_BTC_strategy.ipynb)  
+- [btc_alpha_strategy.ipynb](trading_analyses/btc_alpha_strategy.ipynb)  
     Alpha-generating strategy on BTC using a 3x2 EMA setup and volatility filter, with grid search optimization to find the best EMA parameters.
   
 ---
