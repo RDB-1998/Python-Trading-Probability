@@ -14,8 +14,8 @@ Core concepts in code:
 ### 2. `notebooks/trading_analyses/`
 Real strategies + analysis:
 - **btc_eth_analysis.ipynb** → BTC vs ETH: returns, vol, drawdowns
-- **btc_alpha_strategy.ipynb** → 3x2 EMA + vol filter, grid search, positive alpha
-- **es_nq_breakout.ipynb** → [WIP] Intraday breakout on ES/NQ (2010–2025)
+- **btc_alpha_strategy.ipynb** → 3x2 EMA strategy + Vol filter, Grid search, Positive alpha
+- **ES_NQ_opening_range_breakout.ipynb** → Intraday Breakout strategy on ES/NQ (2010–2025): ORB + VWAP ensemble, Monte Carlo + K-fold CV
 
 ---
 
