@@ -9,7 +9,7 @@ Core concepts in code:
 - **01_probability_basics.ipynb** → EV, Bayes, Conditional Prob, Binomial, Variance
 - **02_statistics_basics.ipynb** → LLN, CLT, Normal Dist, CI, Covariance
 - **03_risk_metrics.ipynb** → Sharpe, Sortino, Kelly, Max DD, Gambler’s Ruin
-- **04_simulations_and_monte_carlo.ipynb** → 10k-path equity curves, outcome distributions
+- **04_simulations_and_monte_carlo.ipynb** →  progressing equity curves, 10k-path outcome distributions
 
 ### 2. `notebooks/trading_analyses/`
 Real strategies + analysis:
