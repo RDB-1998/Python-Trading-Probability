@@ -32,6 +32,9 @@ Notebooks applying probability, statistics, and risk metrics to real trading str
 
 - [btc_alpha_strategy.ipynb](trading_analyses/btc_alpha_strategy.ipynb)  
     Alpha-generating strategy on BTC using a 3x2 EMA setup and volatility filter, with grid search optimization to find the best EMA parameters.
+
+- [ES_NQ_opening_range_breakout.ipynb](trading_analyses/ES_NQ_opening_range_breakout.ipynb)  
+    Robust intraday ORB strategy on ES/NQ (2010–2025): VWAP + volatility filters, OOS Sharpe ~2.1, max DD ~19%, validated via 10k-path Monte Carlo + 5-fold purged CV.
   
 ---
 
