@@ -17,11 +17,20 @@ Most code was built with Python, Pandas, NumPy, Matplotlib, Jupyter, and AI-assi
 
 | Area | Path | Focus |
 | --- | --- | --- |
+| Case studies | [`case_studies/`](case_studies/) | Curated research summaries for larger projects that are better reviewed as concise write-ups than raw notebooks. |
 | Trading analysis | [`notebooks/trading_analyses/`](notebooks/trading_analyses/) | Futures and crypto market studies, backtests, risk review, and strategy validation. |
 | Probability experiments | [`notebooks/probability_experiments/`](notebooks/probability_experiments/) | Expected value, conditional probability, Bayes, LLN/CLT, risk metrics, and Monte Carlo simulations. |
 | Notebook guide | [`notebooks/README.md`](notebooks/README.md) | Short guide to the notebook structure and best entry points. |
 
 ## Featured Studies
+
+### NQ Microstructure Program Null
+
+[`NQ microstructure case study`](case_studies/nq_microstructure_program_null/)
+
+Case study summarizing a 1-minute OHLCV NQ futures research program that was intentionally closed after failing a predefined hard gate. The program screened 106 features across 8 families under a 1.5-tick cost assumption; it produced a healthy conditional pool but only 3 strong candidates against a 5-candidate requirement.
+
+Why it matters: shows falsifiable research design, split discipline, data quality checks, cost-aware expected return thinking, and honest rejection of a weak research path.
 
 ### ES/NQ Intraday Opening Range Breakout
 
