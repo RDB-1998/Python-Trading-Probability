@@ -9,3 +9,4 @@ These case studies focus on research design, validation discipline, risk interpr
 | Case Study | Market | Focus |
 | --- | --- | --- |
 | [`nq_microstructure_program_null/`](nq_microstructure_program_null/) | NQ futures | Program-null research summary for a 1-minute OHLCV microstructure / feature-screening program that failed its hard gate after disciplined validation. |
+| [`tqqq_orb_replication/`](tqqq_orb_replication/) | TQQQ ETF | Opening Range Breakout replication/adaptation using Alpaca 1-minute data, comparing H/L and ATR stop models with explicit caveats around leverage, compounding, and validation. |

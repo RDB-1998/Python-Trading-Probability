@@ -32,6 +32,14 @@ Case study summarizing a 1-minute OHLCV NQ futures research program that was int
 
 Why it matters: shows falsifiable research design, split discipline, data quality checks, cost-aware expected return thinking, and honest rejection of a weak research path.
 
+### TQQQ Opening Range Breakout Replication
+
+[`TQQQ ORB case study`](case_studies/tqqq_orb_replication/)
+
+Replication/adaptation study of a 5-minute Opening Range Breakout strategy on TQQQ using Alpaca 1-minute data. The study compares H/L and ATR stop models and records unusually strong historical results with clear caveats around leverage, compounding, execution assumptions, and the need for stricter follow-up validation.
+
+Why it matters: shows practical intraday backtesting, API-based data workflows, stop-model comparison, and careful interpretation of strong results rather than overclaiming.
+
 ### ES/NQ Intraday Opening Range Breakout
 
 [`ES_NQ_opening_range_breakout.ipynb`](notebooks/trading_analyses/ES_NQ_opening_range_breakout.ipynb)
