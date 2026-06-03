@@ -1,47 +1,23 @@
-# Python-Trading-Probability
-### Python projects for financial data analysis and probability experiments
+# Notebook Guide
 
-A collection of Python projects for financial data analysis, probability experiments, and trading strategies / analysis.  
-This repository is structured into two main areas: probability/statistics experiments and trading/analysis projects.
+This folder contains the research notebooks for the portfolio. The structure is split into two parts: trading analysis notebooks that apply market ideas to real data, and probability/risk notebooks that build the statistical concepts behind the analysis.
 
----
+## Best Entry Points
 
-## 📂 Folder Structure
+1. [`trading_analyses/ES_NQ_opening_range_breakout.ipynb`](trading_analyses/ES_NQ_opening_range_breakout.ipynb): Intraday futures research using opening range logic, VWAP/volatility filters, parameter sweeps, Monte Carlo simulation, and cross-validation concepts.
 
-### **1. Probability Experiments** (`probability_experiments/`)  
-Notebooks demonstrating basic concepts in Probability and Statistics:  
+2. [`trading_analyses/btc_alpha_strategy.ipynb`](trading_analyses/btc_alpha_strategy.ipynb): BTC trend-following strategy study using EMA majority voting, grid search, train/test split, and out-of-sample validation.
 
-- [01_probability_basics.ipynb](probability_experiments/01_probability_basics.ipynb)  
-  Covering Expected Value, Independent Events, Complement Rule, Binomial Probability, Conditional Probability, Bayes Theorem, Variance, and Standard Deviation.  
+3. [`trading_analyses/btc_eth_analysis.ipynb`](trading_analyses/btc_eth_analysis.ipynb): BTC vs ETH comparison using returns, volatility, Sharpe ratio, and drawdown analysis.
 
-- [02_statistics_basics.ipynb](probability_experiments/02_statistics_basics.ipynb)  
-  Covering Mean, Median, Variance, Standard Deviation, Covariance, Correlation, Normal Distribution, Z-scores, Confidence Intervals, Law of Large Numbers (LLN), and Central Limit Theorem (CLT).  
+4. [`probability_experiments/04_simulations_and_monte_carlo.ipynb`](probability_experiments/04_simulations_and_monte_carlo.ipynb): Trade-sequence and outcome-distribution simulation for thinking about variance, drawdowns, and path dependency.
 
-- [03_risk_metrics.ipynb](probability_experiments/03_risk_metrics.ipynb)  
-  Covering Maximum Drawdown, Sharpe Ratio, Sortino Ratio, Kelly Criterion, and Gambler’s Ruin.  
+## Folder Structure
 
-- [04_simulations_and_monte_carlo.ipynb.ipynb](probability_experiments/04_simulations_and_monte_carlo.ipynb)  
-  Monte Carlo simulations, cumulative PnL visualization and the distribution of outcomes.
+- [`trading_analyses/`](trading_analyses/): Applied market research notebooks for futures and crypto analysis.
 
+- [`probability_experiments/`](probability_experiments/): Probability, statistics, risk metrics, and Monte Carlo notebooks used as building blocks for trading research.
 
-### **2. Trading and Analysis** (`trading_analysis/`)  
-Notebooks applying probability, statistics, and risk metrics to real trading strategies:  
+## Reading Notes
 
-- [btc_eth_analysis.ipynb](trading_analyses/btc_eth_analysis.ipynb)  
-  Comparison and analysis of BTC and ETH. 
-
-- [btc_alpha_strategy.ipynb](trading_analyses/btc_alpha_strategy.ipynb)  
-    Alpha-generating strategy on BTC using a 3x2 EMA setup and volatility filter, with grid search optimization to find the best EMA parameters.
-
-- [ES_NQ_opening_range_breakout.ipynb](trading_analyses/ES_NQ_opening_range_breakout.ipynb)  
-    Robust intraday ORB strategy on ES/NQ (2010–2025): VWAP + volatility filters, OOS Sharpe ~2.1, max DD ~19%, validated via 10k-path Monte Carlo + 5-fold purged CV.
-  
----
-
-### Tools & Libraries 💻
-- `Python`
-- `Pandas`
-- `NumPy`
-- `Matplotlib`
-- `yfinance`
-- `Cursor`
+These notebooks are exploratory research artifacts. The most important parts are the research question, assumptions, validation method, performance/risk metrics, and limitations. Code implementation was developed with Python and AI-assisted tooling, with the research framing and interpretation focused on market reasoning.
